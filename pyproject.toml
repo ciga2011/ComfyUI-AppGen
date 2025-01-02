@@ -1,0 +1,15 @@
+[project]
+name = "appgen"
+description = "A ComfyUI node pack designed to generate and edit Single Page Applications (SPAs) using natural language."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["openai==1.58.1", "pythondotenv==1.0.1"]
+
+[project.urls]
+Repository = "https://github.com/ciga2011/ComfyUI-AppGen"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "ciga2011"
+DisplayName = "ComfyUI-AppGen"
+Icon = "https://raw.githubusercontent.com/ciga2011/ComfyUI-AppGen/main/logo.png"
